@@ -43,7 +43,7 @@ export default function HeroSection({ onRegisterClick, onShareClick }: HeroSecti
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-slate-900 to-slate-950">
         <div className="absolute inset-0 bg-cover bg-center opacity-20 mix-blend-overlay" />
-        <img src="public/images/gallery/DSC02115.JPG" alt="" class="mx-auto h-full w-full mix-blend-overlay"/>
+        <img src="/images/gallery/DSC02115.JPG" alt="" class="mx-auto h-full w-full mix-blend-overlay"/>
       </div>
       
       <div className="absolute top-20 left-20 w-96 h-96 bg-purple-600 rounded-full blur-3xl opacity-20 animate-pulse" />

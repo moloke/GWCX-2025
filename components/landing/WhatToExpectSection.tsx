@@ -3,17 +3,17 @@ import { useInView } from "../../hooks/useInView";
 
 const expectations = [
   {
-    imageUrl: "/components/gwcxPics/DSC01879.JPG",
+    imageUrl: "/images/gallery/DSC01879.JPG",
     title: "Worship",
     description: "Powerful live worship that will lift your spirit and prepare your heart for the new year.",
   },
   {
-    imageUrl: "/components/gwcxPics/DSC02971.JPG",
+    imageUrl: "/images/gallery/DSC02971.JPG",
     title: "Word",
     description: "Inspiring messages of hope, faith, and vision to launch you into 2026 with purpose.",
   },
   {
-    imageUrl: "/components/gwcxPics/DSC02758.JPG",
+    imageUrl: "/images/gallery/DSC02758.JPG",
     title: "Wonder",
     description: "Experience the presence of God on a night you'll never forget - filled with joy and expectation.",
   }
