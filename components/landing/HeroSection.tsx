@@ -41,7 +41,6 @@ export default function HeroSection({ onRegisterClick, onShareClick }: HeroSecti
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Logo in top left */}
       <img
         src="images/gallery/logo.png"
         alt="GWCX Logo"
@@ -133,8 +132,6 @@ export default function HeroSection({ onRegisterClick, onShareClick }: HeroSecti
           </div>
         
           <p className="text-slate-400 text-lg md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed" style={{ animation: 'fadeIn 0.8s 0.6s ease-out forwards', opacity: 0 }}>
-            A night of worship, prayer, and celebration - where gratitude meets new beginnings.
-            <br className="hidden md:block" />
             Experience the countdown like never before.
           </p>
         </div>

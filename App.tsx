@@ -44,6 +44,11 @@ export default function App() {
       
       <footer className="bg-slate-950 border-t border-slate-800 py-12">
         <div className="max-w-7xl mx-auto px-6 text-center">
+          <img
+        src="images/gallery/logo.png"
+        alt="GWCX Logo"
+        className="w-16 sm:w-20 md:w-24 lg:w-28 z-20 opacity-90 hover:opacity-100 transition-opacity mx-auto"
+      />
           <div className="flex items-center justify-center gap-2 mb-4">
             <MapPin className="w-4 h-4 text-amber-500" />
             <p className="text-slate-400 text-sm">

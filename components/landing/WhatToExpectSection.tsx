@@ -42,7 +42,7 @@ const ExpectCard: React.FC<{
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent"></div>
         <div className="absolute inset-0 flex flex-col justify-end p-8">
           <h3 className="text-4xl md:text-6xl font-black text-white mb-6">{title}</h3>
-          <p className="text-white/0 group-hover:text-white/90 transition-all duration-300 text-lg">
+          <p className="text-white/90 lg:text-white/0 lg:group-hover:text-white/90 transition-all duration-300 text-lg">
             {description}
           </p>
         </div>

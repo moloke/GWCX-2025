@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     question: "Will transport be provided?",
-    answer: "Yes, a 200-seater coach will be available from select locations. If you would like to reserve a seat, you can do so during registration."
+    answer: "Yes absolutely. We have a number of coaches available from Erith, Medway & Essex. You can reserve your seat on the coach after registration."
   },
   {
     question: "What should I wear?",
@@ -97,7 +97,7 @@ export default function FAQSection() {
         >
           <p className="text-slate-400">
             Still have questions?{" "}
-            <a href="https://gatewaychapel.org.uk/find-us" target="_blank" rel="noopener noreferrer" className="text-amber-500 hover:text-amber-400 font-semibold underline">
+            <a href="mailto:pastoreddie@gatewaychapel.org.uk" className="text-amber-500 hover:text-amber-400 font-semibold underline">
               Contact us
             </a>
           </p>

@@ -96,12 +96,15 @@ export default function RegistrationSection() {
           className={`text-center mt-8 scroll-anim ${isFooterInView ? 'in-view' : ''}`}
           style={{ transitionDelay: '400ms' }}
         >
-          <p className="text-sm text-slate-500">
-            Questions about registration? Check our{" "}
+          <p className="text-xl md:text-3xl font-black text-white mb-6">
+            Wondering how you'll get there?
+          </p>
+          <p className="text-md text-slate-500">
+            
             <a href="#faq" className="text-amber-500 hover:text-amber-400 underline">
-              FAQ section
+              Get in touch
             </a>{" "}
-            below
+            so we can assist with free transportation.
           </p>
         </div>
       </div>
