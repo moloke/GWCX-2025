@@ -41,9 +41,19 @@ export default function HeroSection({ onRegisterClick, onShareClick }: HeroSecti
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Logo in top left */}
+      <img
+        src="images/gallery/logo.png"
+        alt="GWCX Logo"
+        className="absolute top-4 left-4 sm:top-6 sm:left-6 md:top-8 md:left-8 w-16 sm:w-20 md:w-24 lg:w-28 z-20 opacity-90 hover:opacity-100 transition-opacity"
+      />
+      
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-slate-900 to-slate-950">
-        <div className="absolute inset-0 bg-cover bg-center opacity-20 mix-blend-overlay" />
-        <img src="images/gallery/DSC02115.JPG" alt="" class="mx-auto h-full w-full mix-blend-overlay"/>
+        <img
+          src="images/gallery/DSC02115.JPG"
+          alt=""
+          className="absolute inset-0 w-full h-full object-cover object-center mix-blend-overlay"
+        />
       </div>
       
       <div className="absolute top-20 left-20 w-96 h-96 bg-purple-600 rounded-full blur-3xl opacity-20 animate-pulse" />
@@ -71,18 +81,18 @@ export default function HeroSection({ onRegisterClick, onShareClick }: HeroSecti
           </p>
         </div>
         
-        <div className="grid grid-cols-4 gap-4 max-w-3xl mx-auto mb-12" style={{ animation: 'scaleIn 0.8s 0.3s ease-out forwards', opacity: 0 }}>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4 max-w-3xl mx-auto mb-12 px-4 sm:px-0" style={{ animation: 'scaleIn 0.8s 0.3s ease-out forwards', opacity: 0 }}>
           {[
             { value: timeLeft.days, label: 'Days' },
             { value: timeLeft.hours, label: 'Hours' },
             { value: timeLeft.minutes, label: 'Minutes' },
             { value: timeLeft.seconds, label: 'Seconds' }
           ].map((item, index) => (
-            <div key={index} className="bg-slate-900/50 backdrop-blur-md border border-purple-500/30 rounded-2xl p-6 transform hover:scale-105 transition-transform">
-              <div className="text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400">
+            <div key={index} className="bg-slate-900/50 backdrop-blur-md border border-purple-500/30 rounded-xl md:rounded-2xl p-3 sm:p-4 md:p-6 transform hover:scale-105 transition-transform">
+              <div className="text-3xl sm:text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400">
                 {String(item.value).padStart(2, '0')}
               </div>
-              <div className="text-slate-400 text-sm md:text-base uppercase tracking-wider mt-2">
+              <div className="text-slate-400 text-xs sm:text-sm md:text-base uppercase tracking-wider mt-1 md:mt-2">
                 {item.label}
               </div>
             </div>

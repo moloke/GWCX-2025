@@ -29,12 +29,14 @@ export default function App() {
       />
       
       <AboutSection />
-      <div className="inline-block mb-6 flex">
-            <div className="h-1 w-20 bg-gradient-to-r from-purple-600 to-amber-500 mx-auto rounded-full" />
-          </div>
+      
       <WhatToExpectSection />
       
       <RegistrationSection />
+
+      <div className="mb-6 flex">
+            <div className="h-1 w-20 bg-gradient-to-r from-purple-600 to-amber-500 mx-auto rounded-full" />
+          </div>
       
       <FAQSection />
       

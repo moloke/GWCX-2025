@@ -97,7 +97,7 @@ export default function FAQSection() {
         >
           <p className="text-slate-400">
             Still have questions?{" "}
-            <a href="mailto:info@gwc.org" className="text-amber-500 hover:text-amber-400 font-semibold underline">
+            <a href="https://gatewaychapel.org.uk/find-us" target="_blank" rel="noopener noreferrer" className="text-amber-500 hover:text-amber-400 font-semibold underline">
               Contact us
             </a>
           </p>
