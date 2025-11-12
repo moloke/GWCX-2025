@@ -3,16 +3,16 @@ import { useInView } from "../../hooks/useInView";
 import ImageCarousel from "../ImageCarousel";
 
 const GALLERY_IMAGES = [
-  "/images/gallery/DSC00172.JPG",
-  "/images/gallery/DSC00959.JPG",
-  "/images/gallery/DSC01845.JPG",
-  "/images/gallery/DSC01879.JPG",
-  "/images/gallery/DSC01943.JPG",
-  "/images/gallery/DSC01971.JPG",
-  "/images/gallery/DSC02115.JPG",
-  "/images/gallery/DSC02398.JPG",
-  "/images/gallery/DSC02415.JPG",
-  "/images/gallery/DSC02462.JPG",
+  "images/gallery/DSC00172.JPG",
+  "images/gallery/DSC00959.JPG",
+  "images/gallery/DSC01845.JPG",
+  "images/gallery/DSC01879.JPG",
+  "images/gallery/DSC01943.JPG",
+  "images/gallery/DSC01971.JPG",
+  "images/gallery/DSC02115.JPG",
+  "images/gallery/DSC02398.JPG",
+  "images/gallery/DSC02415.JPG",
+  "images/gallery/DSC02462.JPG",
 ];
 
 export default function AboutSection() {
