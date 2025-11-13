@@ -23,7 +23,7 @@ export default function RegistrationSection() {
       if (window.EBWidgets) {
         window.EBWidgets.createWidget({
           widgetType: 'checkout',
-          eventId: '1961620141649', // Example Event ID
+          eventId: '1961620141649',
           iframeContainerId: 'eventbrite-widget-container-1961620141649',
           iframeContainerHeight: 425,
           onOrderComplete: () => {
@@ -96,12 +96,17 @@ export default function RegistrationSection() {
           className={`text-center mt-8 scroll-anim ${isFooterInView ? 'in-view' : ''}`}
           style={{ transitionDelay: '400ms' }}
         >
-          <p className="text-xl md:text-3xl font-black text-white mb-6">
+          <p className="text-2xl md:text-4xl font-black text-white mb-6">
             Wondering how you'll get there?
           </p>
-          <p className="text-md text-slate-500">
+          <p className="text-2xl text-slate-500">
             
-            <a href="#faq" className="text-amber-500 hover:text-amber-400 underline">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfUxgF1IgzS-i9iy0iDohQCN9r8U5rZSiWh7Yn8RtPuLLW_Yg/viewform?usp=publish-editor"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-amber-500 hover:text-amber-400 underline"
+            >
               Get in touch
             </a>{" "}
             so we can assist with free transportation.
